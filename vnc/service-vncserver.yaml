@@ -5,7 +5,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    name: vncserver
+    app: vncserver
   ports:
     - protocol: TCP
       port: 5900

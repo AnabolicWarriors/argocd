@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+
+kind: Deployment
+
+metadata:
+
+  name: vncserver-deployment
+
+  labels:
+
+    app: vncserver
+
+spec:
+
+  replicas: 1
+
+  selector:
+
+    matchLabels:
+
+      app: vncserver
+
+  template:
+
+    metadata:
+
+      labels:
+
+        app: vncserver
+
+    spec:
+
+      containers:
+
+      - name: vncserver
+
+        image: hyunjun1325/ubuntu_vnc
+
+        ports:
+
+        - containerPort: 5900

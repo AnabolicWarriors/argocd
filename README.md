@@ -1,4 +1,5 @@
 # argocd
+> argocd는 쿠버네티스의 지속적인 배포를 자동화 해주는 서비스이다. 이 레포지터리의 YAML을 갱신하기만 하면 자동으로 서버의 쿠버네티스에 적용된다.
 
 ## vnc/deployment-vncserver.yaml
 ### 쿠버네티스의 디플로이먼트를 만드는 YAML파일

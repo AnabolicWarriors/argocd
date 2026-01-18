@@ -1,7 +1,7 @@
-# Argo CD Kubernetes GitOps Example
+# Argo CD Kubernetes GitOps
 
 ## 📌 Overview
-이 저장소는 **Argo CD를 활용한 Kubernetes GitOps 자동 배포 구성 예제**를 담은 리포지토리입니다.  
+이 저장소는 **Argo CD를 활용한 Kubernetes GitOps 자동 배포 구성**을 담은 리포지토리입니다.  
 Git 저장소에 선언된 Kubernetes 매니페스트(YAML)를 기준으로, Argo CD가 클러스터 상태를 자동으로 동기화하여 지속적인 배포(Continuous Delivery)를 구현합니다.
 
 GitHub 저장소의 YAML을 수정하고 커밋하면, 별도의 수동 배포 없이 Argo CD가 이를 감지하여 Kubernetes 클러스터에 자동 반영하도록 구성할 수 있습니다.
